@@ -1,0 +1,177 @@
+/* VARIAVEIS */
+:root{
+    --font-icons-header: 40px;
+}
+
+/* VARIAVEIS */
+
+/* MOLDURA DO CURRICULO */
+.curriculo-moldura{
+    max-width: 812px;
+    min-width: 425px;
+    height: 1130px;
+    margin: 0 auto;
+    background-color: #E3EBEF;
+    border: solid 2px;
+    border-radius: 1%;
+    font-size: 17px;
+}
+
+/* MOLDURA DO CURRICULO */
+
+/* HEADER */
+.curriculo-moldura .cabecalho{
+    background-color: #293B5C;
+    display: flex;
+    max-width: 100%;
+    margin-top: 10%;
+    position: relative;
+}
+
+.curriculo-moldura .cabecalho .informacoes{
+    margin: 10px 0 10px 80px;
+}
+
+.cabecalho img{
+    width: 18%;
+    position: absolute;
+    right: 50px;
+    bottom: 5px;
+    border: solid 2px white ;
+    border-radius: 5%;
+}
+
+.cabecalho .informacoes .titulo1{
+    color: white;
+}
+
+
+@media(max-width: 545px){
+    .cabecalho img{
+        width: 20%;
+        position: absolute;
+        right: 20px;
+        bottom: 5px;
+        border: solid 2px white ;
+    }
+
+    .cabecalho .informacoes{
+        font-size: 80%;
+    }
+}
+
+.cabecalho .linguagens{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    
+}
+
+.cabecalho .linguagens .fa-html5{
+    color: #E44D26;
+    font-size: var(--font-icons-header);
+}
+
+.cabecalho .linguagens .fa-css3-alt{
+    color: #379AD6;
+    font-size: var(--font-icons-header);
+}
+
+
+.cabecalho .linguagens .fa-js-square{
+    color: #F7E018;
+    font-size: var(--font-icons-header);
+}
+
+.cabecalho .linguagens .fa-react{
+    color: #85E2FC;
+    font-size: var(--font-icons-header);
+}
+
+.cabecalho .linguagens .fa-github{
+    color: #7E65FE;
+    font-size: var(--font-icons-header);
+}
+
+.cabecalho .linguagens .hover:hover{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+/* HEADER */
+
+
+/* MAIN*/
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    margin: 10px 50px 10px 80px;
+}
+
+.conteudo-principal .redes a:last-child{
+    margin-left: 10px;
+}
+.conteudo-principal .redes .hover-redes:hover{
+    color: green;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo-principal .portifolio a:hover{
+    margin-left: 5px;
+    color: green;
+    transition: 0.3s ease-in-out;
+}
+
+section .texto{
+    text-align: justify;
+}
+
+.conteudo-principal .fa-linkedin{
+    color: #0274B3;
+    font-size: var(--font-icons-header);
+}
+
+.conteudo-principal .fa-github{
+    color: #7E65FE;
+    font-size: var(--font-icons-header);
+}
+
+
+.titulo2{
+    margin-bottom: 10px;
+
+}
+
+.formacao .topicos{
+    display: flex;
+    
+}
+
+.formacao .topicos .cursos{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos .linguagens{
+    margin-left: 20px;
+}
+
+.contato{
+    display: flex;
+}
+
+.contato span:hover{
+    color: #33ca4e;
+    transition: 0.3s ease-in-out;
+}
+
+.contato .fa-whatsapp{
+    color: #33ca4e;
+    font-size: 20px;
+    margin-left: 20px;
+}
+/* MAIN*/
+
+
